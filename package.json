@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Starlexx234.github.io/gh-actions",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -13,11 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "eject": "react-scripts eject",    
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -45,6 +46,6 @@
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0"
-  },
-  "homepage": "https://Starlexx234.github.io/gh-actions"
+  }
+  
 }
