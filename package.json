@@ -18,7 +18,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",    
+=======
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+>>>>>>> 18efc311e8e03177f742edd1e97f6390702188e3
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -47,5 +52,10 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0",
     "gh-pages": "^6.3.0"
+<<<<<<< HEAD
   }  
+=======
+  },
+  "homepage": "https://Starlexx234.github.io/gh-actions"
+>>>>>>> 18efc311e8e03177f742edd1e97f6390702188e3
 }
