@@ -44,7 +44,8 @@
     "@eslint/js": "^9.24.0",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.0.0"
+    "globals": "^16.0.0",
+    "gh-pages": "^6.3.0"
   },
   "homepage": "https://Starlexx234.github.io/gh-actions"
 }
